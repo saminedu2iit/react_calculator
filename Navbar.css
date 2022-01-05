@@ -1,0 +1,43 @@
+#navbar_div {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  border-radius: 2px solid black;
+  background-color: rgb(188, 124, 201);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home_link,
+#about_link {
+  color: white;
+  margin-left: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#home_link:hover,
+#about_link:hover {
+  color: brown;
+}
+#navbar_right_div {
+  margin-right: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#night_mode_checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+#night_mode_checkbox:hover {
+  cursor: pointer;
+  border: 2px solid brown;
+}
